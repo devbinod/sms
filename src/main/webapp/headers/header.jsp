@@ -58,9 +58,9 @@
 <body>
 
 <div class="sidenav">
-    <a href="${pageContext.request.contextPath}/student">Studentt</a>
+    <a href="${pageContext.request.contextPath}/students?action=${HttpRequestList.ALL.toString()}">Student</a>
     <a href="${pageContext.request.contextPath}/messageList?action=${HttpRequestList.ALL.toString()}">Message Template</a>
-    <a href="#clients">Clients</a>
+    <a href="${pageContext.request.contextPath}/grades?action=${HttpRequestList.ALL.toString()}">Grades</a>
     <a href="#contact">Contact</a>
 </div>
 

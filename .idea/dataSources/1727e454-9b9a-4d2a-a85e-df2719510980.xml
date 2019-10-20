@@ -962,7 +962,6 @@
     <column id="246" parent="241" name="version">
       <Position>2</Position>
       <DataType>bigint(20)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="247" parent="241" name="name">
@@ -974,7 +973,6 @@
     <column id="248" parent="241" name="status">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="249" parent="241" name="PRIMARY">
@@ -1082,7 +1080,6 @@
     <column id="267" parent="244" name="version">
       <Position>2</Position>
       <DataType>bigint(20)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="268" parent="244" name="grade_id">
@@ -1106,7 +1103,6 @@
     <column id="271" parent="244" name="status">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="272" parent="244" name="parent_name">
